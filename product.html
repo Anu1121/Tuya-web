@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Tuya Cashmere Website Test</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/4316badeaf.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+</head>
+    <body>
+        <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="product.html">PRODUCT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Бүтээгдэхүүнүүд</h1>
+    </section>
+
+
+<!------ Facilities -------->
+
+<section class="facilities">
+    <h1>Бүтээгдэхүүнүүд</h1>
+
+    <div class="row">
+        <div class="facilities-col">
+            <img src="images/huuhed.jpeg">
+            <h3>Хүүхдийн дэр</h3>
+            <p><i class="fa-solid fa-check"></i>100% үйлдвэрийн аргаар боловсруулсан
+                <br> <i class="fa-solid fa-check"></i>2 давхар хөвөн даавуун гадартай
+                <br> <i class="fa-solid fa-check"></i>Толгой хөлөргөж халууцуулахгүй
+                <br> <i class="fa-solid fa-check"></i>Дуу чимээ гаргахгүй, экологийн цэвэр бүтээгдэхүүн
+                <br> Унтлагын дэр нэгжийн үнэ:
+                <br>- 28 000төг (40*60 см, 6-12 нас)
+                <br>- 25 000 төг (30*50 см, 0-5 нас)
+            </p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/tomhun.jpeg">
+            <h3>Том хүний дэр</h3>
+            <p><i class="fa-solid fa-check"></i>100% үйлдвэрийн аргаар боловсруулсан
+                <br> <i class="fa-solid fa-check"></i>2 давхар хөвөн даавуун гадартай
+                <br> <i class="fa-solid fa-check"></i>Толгой хөлөргөж халууцуулахгүй
+                <br> <i class="fa-solid fa-check"></i>Дуу чимээ гаргахгүй, экологийн цэвэр бүтээгдэхүүн
+                <br> Унтлагын дэр нэгжийн үнэ:
+                <br>- 40 000 төг (50*70см)
+                <br>- 33 000 төг (40*60 см)
+            </p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/daavuu.png">
+            <h3>Орны даавуу</h3>
+            <p><i class="fa-solid fa-check"></i>Маш гоё, тааран даавуу
+                <br> <i class="fa-solid fa-check"></i>Агаарыг сайн нэвтрүүлнэ
+                <br> <i class="fa-solid fa-check"></i>Будаг гарахгүй, бөөсрөхгүй
+                <br> <i class="fa-solid fa-check"></i>Эдэлгээ удаан
+                <br>Хэмжээ:
+                <br>- Хөнжлийн даавуу 210*230 см
+                <br>- Дэвсгэр даавуу 230*250 см
+                <br>- Дэрний уут 48*74см (2ш)
+            </p>
+        </div>
+    </div>
+
+
+</section>
+
+
+
+
+<!------ Footer -------->
+ 
+<section class="footer">
+    <h4>Захиалгын нөхцөл</h4>
+    <p>Онлайн захиалга өгсөнөөс хойш <br> 24 цагийн дотор хүргэлт хийгдэнэ.</p>
+    <div class="icons">
+        <a href="https://www.facebook.com/TuyaCashmere"><i class="fa-brands fa-facebook" ></i></a>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-solid fa-globe"></i> 
+    </div>
+    <p><i class="fa-regular fa-copyright"></i> 2022 Annu</p>
+</section>
+
+
+<!---- Little bit JS here ---->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+
+
+
+    
+    </body>
+</html>
+
